@@ -1,0 +1,40 @@
+.projectLink {
+  color: #ff6700;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.introduction {
+  margin: 4rem 0;
+  .mainTitle {
+    text-align: center;
+    font-size: 4.5rem;
+  }
+  .subTitle {
+    text-align: center;
+  }
+}
+
+.nameTitle {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.whatTitle {
+  text-align: center;
+}
+
+.textLeft {
+  width: 50%;
+  font-size: 1.5rem;
+}
+.textRight {
+  margin-left: 47%;
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+//tornar o site totalmente responsivo
+// @media {
+// }

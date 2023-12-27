@@ -1,0 +1,26 @@
+.navbar {
+  color: white;
+  text-decoration: none;
+}
+.header {
+  height: 10vh;
+}
+
+.logo {
+  width: 40px;
+  height: 60px;
+}
+
+.pageLinks {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.contactIcons {
+  display: flex;
+  gap: 1.5rem;
+  .icon {
+    width: 40px;
+    height: 45px;
+  }
+}

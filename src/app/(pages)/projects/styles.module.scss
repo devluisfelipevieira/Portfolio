@@ -15,7 +15,13 @@
   }
 }
 
-.card {
-  border: solid white;
-  text-align: justify;
+.cardsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  flex-wrap: wrap;
+  .card {
+    border: solid white;
+    text-align: justify;
+  }
 }

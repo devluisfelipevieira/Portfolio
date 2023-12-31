@@ -6,22 +6,3 @@
 .subtitle {
   text-align: center;
 }
-
-.tecsOnPage {
-  color: #ff6700;
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-.cardsContainer {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 1rem;
-  flex-wrap: wrap;
-  .card {
-    border: solid white;
-    text-align: justify;
-  }
-}

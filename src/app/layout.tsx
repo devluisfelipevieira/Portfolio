@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Bruno_Ace } from "next/font/google";
 import "./globals.scss";
 import Header from "@/components/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const brunoAce = Bruno_Ace({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Luis Felipe Vieira",
@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>
+      <body className={brunoAce.className}>
         <Header />
         {children}
       </body>

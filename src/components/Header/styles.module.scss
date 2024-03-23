@@ -23,6 +23,21 @@
     width: 40px;
     height: 45px;
   }
+  .contactIconWpp {
+    animation: toFloat 1.5s infinite ease-in-out;
+  }
+  .contactIconGit {
+    animation: toFloat 1.3s infinite ease-in-out;
+  }
+  .contactIconIn {
+    animation: toFloat 1.4s infinite ease-in-out;
+  }
+
+  @keyframes toFloat {
+    50% {
+      transform: translateY(-4%);
+    }
+  }
 }
 
 @media (max-width: 575px) {

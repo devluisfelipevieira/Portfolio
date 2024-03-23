@@ -4,10 +4,20 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Card, Container } from "react-bootstrap";
 import styles from "./styles.module.scss";
 import Link from "next/link";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Cards() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <Container className={styles.cardsContainer}>
+    <Container
+      className={styles.cardsContainer}
+      data-aos="flip-left"
+      data-aos-duration="1600"
+    >
       <Card style={{ width: "30rem" }} className={styles.card}>
         <Card.Img variant="top" src="/images/portifolio-card.jpg" />
         <Card.Body>

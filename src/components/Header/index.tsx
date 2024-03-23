@@ -19,7 +19,7 @@ export default function Header() {
         data-bs-theme="dark"
         className={styles.header}
         data-aos="zoom-in"
-        data-aos-duration="450"
+        data-aos-duration="500"
       >
         <Container>
           <Nav className={styles.pageLinks}>

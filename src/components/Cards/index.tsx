@@ -28,8 +28,8 @@ export default function Cards() {
               projetos de forma simples e direto ao ponto.
             </p>
             <p>
-              Está página é uma SPA totalmente responsiva e é capaz de se
-              adaptar à tela de qualquer dispisitivo
+              Está página é uma SPA(Single Page Application) totalmente
+              responsiva e é capaz de se adaptar à tela de qualquer dispisitivo
             </p>
             Ferramentas usadas no projeto: <br />
             <a
